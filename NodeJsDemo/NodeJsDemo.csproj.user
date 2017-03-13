@@ -9,19 +9,16 @@
         <WebProjectProperties>
           <StartPageUrl>
           </StartPageUrl>
-          <StartAction>CurrentPage</StartAction>
+          <StartAction>Program</StartAction>
           <AspNetDebugging>True</AspNetDebugging>
           <SilverlightDebugging>False</SilverlightDebugging>
           <NativeDebugging>False</NativeDebugging>
           <SQLDebugging>False</SQLDebugging>
-          <ExternalProgram>
-          </ExternalProgram>
+          <ExternalProgram>C:\Windows\System32\cmd.exe</ExternalProgram>
           <StartExternalURL>
           </StartExternalURL>
-          <StartCmdLineArguments>
-          </StartCmdLineArguments>
-          <StartWorkingDirectory>
-          </StartWorkingDirectory>
+          <StartCmdLineArguments>/k "F:\Program Files\nodejs\node.exe" app.js &amp; pause &amp; exit</StartCmdLineArguments>
+          <StartWorkingDirectory>F:\James\Documents\Visual Studio 2015\Projects\NodeJsDemo\NodeJsDemo</StartWorkingDirectory>
           <EnableENC>True</EnableENC>
           <AlwaysStartWebServerOnDebug>True</AlwaysStartWebServerOnDebug>
         </WebProjectProperties>
